@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Katie's List App</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>To-Do List</h1>
+    </header>
+    <div class="list-box-container">
+      <div class="list-box">
+        <h2>LIFE TASKS</h2>
+        <form class="input-container">
+          <input
+            type="text"
+            id="lifeJobsItem"
+            placeholder="Type here"
+            class="input-field"
+          />
+          <input
+            type="submit"
+            value="ADD TASK"
+            onclick="addLifeTask();"
+            class="add-task-button"
+          />
+          <div id="lifeJobsList" class="list"></div>
+        </form>
+      </div>
+      <div class="list-box">
+        <h2>WORK TASKS</h2>
+        <form class="input-container">
+          <input
+            type="text"
+            id="workJobsItem"
+            placeholder="Type here"
+            class="input-field"
+          />
+          <input
+            type="submit"
+            value="ADD TASK"
+            onclick="addWorkTask();"
+            class="add-task-button"
+          />
+          <div id="workJobsList" class="list"></div>
+        </form>
+      </div>
+      <div class="list-box">
+        <h2>SHOPPING</h2>
+        <form class="input-container">
+          <input
+            type="text"
+            id="shoppingListItem"
+            placeholder="Type here"
+            class="input-field"
+          />
+          <input
+            type="submit"
+            value="ADD TASK"
+            onclick="addShoppingItem();"
+            class="add-task-button"
+          />
+          <div id="shoppingList" class="list"></div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <h3>Click on a task to remove it</h3>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
