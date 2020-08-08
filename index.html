@@ -26,7 +26,7 @@
           <input
             type="submit"
             value="ADD TASK"
-            onclick="addLifeTask(); return false;"
+            onclick="addTask('lifeJobsList', 'lifeJobsItem', 0); return false;"
             class="add-task-button"
           />
           <div id="lifeJobsList" class="list"></div>
@@ -44,7 +44,7 @@
           <input
             type="submit"
             value="ADD TASK"
-            onclick="addWorkTask(); return false;"
+            onclick="addTask('workJobsList', 'workJobsItem',1); return false;"
             class="add-task-button"
           />
           <div id="workJobsList" class="list"></div>
@@ -62,7 +62,7 @@
           <input
             type="submit"
             value="ADD TASK"
-            onclick="addShoppingItem(); return false;"
+            onclick="addTask('shoppingList', 'shoppingListItem',2); return false;"
             class="add-task-button"
           />
           <div id="shoppingList" class="list"></div>
