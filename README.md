@@ -6,7 +6,7 @@
 
 _I'd been wanting to make a to-do-list app for a while and I am really happy with the outcome of this one. I spent quite a bit of time on the design and I'm really pleased with how it looks. I got it working fairly quickly but there was quite a lot of repetition in my code and I didn't have the data stored in a very efficient way. With a little help, I did a big refactor and got 80 lines of JavaScript down to 47! I've changed the data structure so that the items are now stored in an array (rather than as HTML strings) and that allowed me to store and access the data more efficiently. I learnt a lot during the refactoring process._
 
-### Main Learning Points:
+## Main Learning Points:
 
 - Thinking about good ways to store data - in this case, an array of objects:
 
@@ -27,3 +27,30 @@ const lists = [
 - Practiced using the array methods forEach(), splice() and indexOf().
 
 - How to stop a page refreshing on 'submit' when using the HTML form element.
+
+## Built with:
+
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started:
+
+Clone the repo as instructed below
+
+## Prerequisites:
+
+No prerequisites
+
+## Installation
+
+1.  Clone the repo
+
+`git clone https://github.com/katiehawcutt/to-do-list-app.git`
+
+2. Run the index.html in a browser
+
+## Usage
+
+1. Add items to the list by typing them in the input and then pressing the ADD TASK button or the return button
+2. Delete items from the list by clicking on them
